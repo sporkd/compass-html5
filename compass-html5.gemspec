@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
 
   s.rubyforge_project = "compass-html5"
 
-  s.add_dependency("compass", ["~> 0.11.1"])
+  s.add_dependency("compass", ["~> 0.12.0"])
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
