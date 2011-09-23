@@ -6,15 +6,12 @@
 // - camendesign.com/design/
 // - praegnanz.de/weblog/htmlcssjs-kickstart
 
-@import "boilerplate/reset";
-@import "boilerplate/fonts";
-@import "boilerplate/styles";
+@import "boilerplate/normalize";
 @import "boilerplate/helpers";
 @import "boilerplate/media";
 
 @mixin html5-boilerplate {
-  @include html5-boilerplate-reset;
-  @include html5-boilerplate-fonts;
-  @include html5-boilerplate-styles;
+  @include html5-boilerplate-normalize;
   @include html5-boilerplate-helpers;
+  @include html5-boilerplate-media-print;
 }
